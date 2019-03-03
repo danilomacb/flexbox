@@ -44,14 +44,37 @@
 #mainContent div {
     height: 700px;
 }
-#sidebarLeft {
+
+.sidebar {
     flex: 1;
     background-color: #DFAA42;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+.sidebarItem{
+    background-color: #E8641B;
+    height: 60px !important;
+    width: 80%;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#login {
+    background-color: white;
+    height: 200px !important;
+}
+#loginTop {
+    background-color: #E8641B;
+    text-align: center;
+    height: 50px !important;
+    font-size: 40px;
+    color: #DFAA42;
+    border-bottom: 2px solid black;
+    border-radius: 0px 0px 5px 5px;
+}
+
 #content {
     flex: 3;
-}
-#sidebarRight {
-    flex: 1;
-    background-color: #DFAA42;
 }
