@@ -58,8 +58,8 @@
     flex: 1;
     background-color: #DFAA42;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 .sidebarItem{
     background-color: #E8641B;
@@ -86,4 +86,15 @@
 
 #content {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#mainConten {
+    /* padrao por enquanto */
+}
+footer {
+    justify-content: flex-end;
+    align-content: flex-end;
 }
