@@ -1,1 +1,1 @@
-Repositório criado para testar meus conhecimentos com flexbox
+Repositório criado para testar meus conhecimentos com flexbox, clean code e SEO criando um site a partir de um layout feito por Gabriel Bigardi.
