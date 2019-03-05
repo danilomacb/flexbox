@@ -7,5 +7,10 @@ function alturaMinima() {
 window.onload = alturaMinima();
 
 function toggle() {
-    document.getElementById("menuContainer").style.display = "flex";
+    if (document.querySelector("#menuContainer").style.display == 'flex') {
+        document.querySelector("#menuContainer").style.display = 'none';
+    }
+    else {
+        document.querySelector("#menuContainer").style.display = 'flex';
+    }
 }

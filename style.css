@@ -112,7 +112,7 @@
     align-items: center;
 }
 
-@media (max-width: 810px) {
+@media (max-width: 825px) {
     #menuContainer {
         display: none;
         flex-direction: column;
