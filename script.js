@@ -5,3 +5,7 @@ function alturaMinima() {
 }
 
 window.onload = alturaMinima();
+
+function toggle() {
+    document.getElementById("menuContainer").style.display = "flex";
+}

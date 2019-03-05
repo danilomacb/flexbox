@@ -9,8 +9,26 @@
 #menuTop {
     background-color: #33393F;
     width: 100%;
-    height: 50px;
+    min-height: 50px;
 }
+
+#toggle {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+}
+#toggle:hover {
+    cursor: pointer;
+}
+.toggleBar {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 #menuContainer {
     display: flex;
 }
@@ -24,12 +42,14 @@
     display: flex;
 }
 #menuItem1 {
-    /* padrao por enquanto */
+    flex: 4;
 }
 #menuItem2 {
+    flex: 1;
     justify-content: center;
 }
 #menuItem3 {
+    flex: 4;
     justify-content: flex-end;
 }
 
@@ -90,4 +110,17 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 810px) {
+    #menuContainer {
+        display: none;
+        flex-direction: column;
+    }
+    .menuItem {
+        flex-direction: column;
+    }
+    #toggle {
+        display: flex;
+    }
 }
